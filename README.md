@@ -48,7 +48,6 @@ npm run cy:run  (Para rodar a suíte de testes em modo Headless)
 
 ## <h3> 🛠️ Construído com
 * [Cypress](https://docs.cypress.io/) - O framework de testes
-* [Faker BR](https://www.npmjs.com/package/faker-br) - Geração de dados fakes
 
 ## <h4> ✒️ Autores
 * **QA Automation** - *Trabalho início ao fim* - [Ben-Hur](https://github.com/BenHurDeal)
