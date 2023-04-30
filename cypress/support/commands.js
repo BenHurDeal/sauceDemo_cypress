@@ -1,5 +1,8 @@
-Cypress.Commands.add('login', () => {
-    cy.get('#user-name').type(Cypress.env('users')[0])
-    cy.get('#password').type(Cypress.env('password'))
+Cypress.Commands.add('login', (
+    user = Cypress.env('users')[0],
+    password = Cypress.env('password')
+) => {
+    cy.get('#user-name').type(user)
+    cy.get('#password').type(password)
     cy.get('#login-button').click()
 })
