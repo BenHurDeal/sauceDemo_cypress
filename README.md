@@ -7,7 +7,7 @@ Aplicação utilizada para teste: https://www.saucedemo.com/
 ## <h3> 📃 Funcionalidades abordadas
 ```
 Login com sucesso
-Login sem sucesso
+Login sem sucesso com user blocked
 Logout com sucesso
 ```
 
