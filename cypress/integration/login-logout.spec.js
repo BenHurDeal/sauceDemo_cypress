@@ -12,7 +12,6 @@ describe('Cenário de Login e Logout', () => {
 
     it('Login sem sucesso com user blocked', () => {
         cy.login(Cypress.env('users')[1])
-        cy.get('#login-button').click()
         cy.get('h3').should('have.text', 'Epic sadface: Sorry, this user has been locked out.')
         .should('be.visible')
     });
